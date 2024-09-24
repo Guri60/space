@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Our Menu</h1>
+        <p>Our menu offers a variety of dishes to cater to all tastes and preferences. From appetizers to desserts, we have something for everyone.</p>
+        <p>We believe in using only the freshest ingredients to create mouthwatering meals that you’ll love.</p>
+        <p>Take a look at some of our popular dishes listed in the table below!</p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Spaghetti Carbonara</td>
+                    <td>Creamy pasta with pancetta</td>
+                    <td>$12</td>
+                </tr>
+                <tr>
+                    <td>Caesar Salad</td>
+                    <td>Romaine lettuce, croutons, and Caesar dressing</td>
+                    <td>$8</td>
+                </tr>
+                <tr>
+                    <td>Margherita Pizza</td>
+                    <td>Classic pizza with fresh tomatoes and mozzarella</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>Grilled Salmon</td>
+                    <td>Salmon fillet grilled to perfection</td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Mousse</td>
+                    <td>Rich and creamy chocolate dessert</td>
+                    <td>$6</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Reserve Your Table</h2>
+        <button class="btn btn-success" onclick="reserveTable()">Reserve Now</button>
+
+        <form>
+            <label>
+                <input type="checkbox" name="special-request"> Special requests
+            </label>
+        </form>
+
+        <h3>Navigate</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
